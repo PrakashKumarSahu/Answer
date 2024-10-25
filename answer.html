@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer Questions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="answer-styles.css">
+</head>
+<body>
+    <header>
+        <h1>Answer Student Questions</h1>
+        <p>Select your interests to filter questions and provide answers to help students.</p>
+    </header>
+
+    <main>
+        <section id="interest-filter">
+            <h2>Select Your Interests</h2>
+            <select id="interest-select" multiple>
+                <option value="Algorithms">Algorithms</option>
+                <option value="Web Development">Web Development</option>
+                <option value="App Development">App Development</option>
+                <option value="Data Science">Data Science</option>
+                <option value="Competitive Programming">Competitive Programming</option>
+                <option value="Cloud Computing & DevOps">Cloud Computing & DevOps</option>
+                <option value="Cybersecurity">Cybersecurity</option>
+                <option value="Electronics & Embedded Systems">Electronics & Embedded Systems</option>
+                <option value="Robotics & Automation">Robotics & Automation</option>
+                <option value="Blockchain & Cryptocurrency">Blockchain & Cryptocurrency</option>
+                <option value="Internships & Placements">Internships & Placements</option>
+                <option value="NIT Raipur Specific Doubts">NIT Raipur Specific Doubts</option>
+                <option value="General Programming">General Programming</option>
+                <option value="Technical Tools">Technical Tools</option>
+                <option value="Relationship & Love Issues">Relationship & Love Issues</option>
+                <option value="Exam & Study-Related Issues">Exam & Study-Related Issues</option>
+                <option value="Scholarships & Financial Aid">Scholarships & Financial Aid</option>
+                <option value="Mental Health & Stress Management">Mental Health & Stress Management</option>
+                <option value="Team Projects & Group Work">Team Projects & Group Work</option>
+            </select>
+            <button id="apply-filter">Apply Filter</button>
+        </section>
+
+        <section id="question-list">
+            <h2>Questions to Answer</h2>
+            <div id="filtered-questions">
+                <!-- Filtered questions based on selected interests will appear here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ask Your Doubts | NITRR</p>
+    </footer>
+
+    <script src="answer-script.js"></script>
+</body>
+</html>
